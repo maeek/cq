@@ -1,0 +1,106 @@
+body, html, .shadow{background: #FFF !important;min-height: 100%;}
+.menu, .shadow{top:0;height: 100%;}
+.hide-menu {height: 30px;z-index: 999;}
+@media only screen and (max-width: 800px) {.shadow {top:30px;}}
+.gallery {
+	margin: auto;
+	width: 95%;
+	background: #FFF;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-line-pack: start;
+	    align-content: flex-start;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+div.spacer_line {
+	width: 98%;
+	margin: auto;
+	background: #A8B0BA;
+}
+.gallery_folder {
+	width: 98%;
+	margin: 10px auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-line-pack: start;
+	    align-content: flex-start;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	border-radius: 3px;
+	background: #eaeaea;
+	border: 1px solid #E9EBE7;
+	-webkit-transition: box-shadow .2s;
+	-o-transition: box-shadow .2s;
+	transition:box-shadow .2s;
+	box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.2);
+}
+.gallery_folder:hover, .gallery_folder:focus {
+	box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.4);
+}
+.gallery_folder_name {
+	font-size: 35px;
+	display: block;
+	width: 100%;
+	color: #000;
+	font-family: Roboto;
+	margin: 5px 0;
+	padding: 5px;
+	text-decoration: none;
+	color:#000;
+}
+.gallery_folder_name span {
+	display: block;
+	width: 100%;
+}
+.download{
+	color: #000;
+	font-family: Roboto;
+	padding: 5px;
+	font-size: 18px;
+	display: inline-block;
+}
+.element_link {color: #C6291E !important;text-decoration: underline;}
+.element_link:hover {color: #ABABAB;}
+a.ph {display: inline-block;width: 30%;margin: 3px;}
+.gallery .photo{margin: 3px;width:100%;display: inline-block;}
+.gallery .photo img{max-width: 100%;}
+.show_next{
+	width: 45px;
+	padding:12px 0;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	border-radius: 50%;
+	background: #AB231A;
+	color: #FFF;
+	margin: auto;
+	border: #FFF;
+	cursor: pointer;
+}
+#element {background-color:#D4D6D3 !important;}
+#element .title {color:#000 !important;}
+a.main-page {
+	color: #C6291E;
+	text-decoration: none;
+}
+a.main-page div.gallery_folder div.gallery_folder_name__main{
+	text-align: center;
+	color: #C6291E ;
+	font-size: 45px;
+	display: block;
+	width: 100%;
+	font-weight: 100;
+	font-family: Roboto;
+	margin: 5px 0;
+	padding: 5px;
+}
+._last {color: #767676 !important;}
